@@ -1,0 +1,12 @@
+names:
+- bottle
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: bottle-ewqkq-zghqr
+  url: https://universe.roboflow.com/my-workspace/bottle-ewqkq-zghqr/dataset/1
+  version: 1
+  workspace: my-workspace
+test: ../test/images
+train: ../train/images
+val: ../valid/images

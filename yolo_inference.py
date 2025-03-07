@@ -1,8 +1,8 @@
 from ultralytics import YOLO
 
-model = YOLO('yolov8x.pt')
+model = YOLO('models/best.pt')
 
-results = model.predict('football.mp4',save=True)
+results = model.predict('input_videos/bottles.mp4',save=True)
 boxes = results[0]
 print(boxes)
 print("-----------------------------------------------")
